@@ -2,11 +2,13 @@
   "name": "NetStatistics",
   "version": "0.0.1",
   "private": true,
+  "license": "GNU GPL 3.0",
   "scripts": {
     "start": "node ./app.js"
   },
   "dependencies": {
     "debug": "~2.2.0",
-    "cron": "~1.1.1"
+    "cron": "~1.1.1",
+    "mongodb": "~2.2.10"
   }
 }
