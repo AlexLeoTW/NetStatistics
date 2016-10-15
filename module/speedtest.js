@@ -15,7 +15,7 @@ Result.prototype.toString = function () {
     return `Ping: ${this.ping} ms\n` +
            `Download: ${this.download} Mbit/s\n` +
            `Upload: ${this.upload} Mbit/s\n` +
-           `Date: ${this.date}`;
+           `Date: ${this.date.toISOString()}`;
 };
 
 function tokyo() {
