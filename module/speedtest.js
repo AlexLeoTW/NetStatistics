@@ -18,11 +18,6 @@ Result.prototype.toString = function () {
            `Date: ${this.date}`;
 };
 
-/*var res = new Result();
-console.log(res.toString());
-res['ping'] = 10;
-console.log(res.toString());*/
-
 function tokyo() {
     var speedtest = child_process.execSync('speedtest-cli --server 7510 --simple'),
         result = {
